@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Verificar si se pasa o pierde una materia</title>
+	<link rel="stylesheet" href="CSS/ejercicio4.css">
+</head>
+<body>
+	<h1>Verifica si pasas o pierdes una materia</h1>
+	<section>
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" required>
+
+		<label for="materia">Materia:</label>
+		<input type="text" id="materia" required>
+
+		<label for="nota1">Nota 1:</label>
+		<input type="number" id="nota1" required max="5" min="0">
+
+		<label for="nota2">Nota 2:</label>
+		<input type="number" id="nota2" required max="5" min="0">
+
+		<label for="nota3">Nota 3:</label>
+		<input type="number" id="nota3" required max="5" min="0">
+
+		<button id="Verifica">Verificar</button>
+	</section>
+
+	<div id="Resultado"></div>
+    <button id="Regresar">Pagina principal</button>
+	<script src="JS/ejercicio4.js"></script>
+</body>
+</html>
